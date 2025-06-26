@@ -33,16 +33,21 @@ python3 xss_scanner.py -l urls.txt -p xss_payloads.txt -o output.txt
 ### Chrome Installation
 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
 ls
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ### If you encounter any errors during installation, use the following command:
 sudo apt -f install
+
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ### Chrome Driver Installation
 Cd Desktop
+
 wget https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+
 ls
 unzip chromedriver-linux64.zip
 ls
