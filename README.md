@@ -9,10 +9,14 @@ An advanced Cross-Site Scripting vulnerability scanner. This tool uses payloads 
 
 ### Installation:
 
+https://github.com/Amanullah-code77/xss-scanner.git
+
 cd xss_scanner
 
 Now create a python virtual environment:
+
 python3 -m venv .venv
+
 source .venv/bin/activate
 
 pip3 install -r requirements.txt
