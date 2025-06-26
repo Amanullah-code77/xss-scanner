@@ -35,6 +35,7 @@ The script accepts the following command-line arguments:
 python3 xss_scanner.py -l urls.txt -p xss_payload -o output.txt
 
 Example:
+
 python3 xss_scanner.py -l urls.txt -p xss.txt -o result.txt
 
 
