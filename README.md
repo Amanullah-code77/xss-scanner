@@ -32,7 +32,11 @@ The script accepts the following command-line arguments:
 - **-o, --output: Path to the output file where vulnerable URLs will be saved.**
 
 ### Usages Command:
-python3 xss_scanner.py -l urls.txt -p xss_payloads.txt -o output.txt
+python3 xss_scanner.py -l urls.txt -p xss_payload -o output.txt
+
+Example:
+python3 xss_scanner.py -l urls.txt -p xss.txt -o result.txt
+
 
 ### Chrome Installation
 
