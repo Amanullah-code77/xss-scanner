@@ -1,0 +1,6 @@
+selenium
+rich
+colorama
+webdriver-manager
+urllib3
+prompt_toolkit
